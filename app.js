@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { sequelize } from "./models/todo.js";
+import { sequelize } from "./models/dbConnection.js";
 import todosRouter from "./routes/todoRoute.js";
 const app = express();
 
